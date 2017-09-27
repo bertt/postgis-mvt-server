@@ -291,7 +291,7 @@ app.post('/upload', upload.single('file'), function (req, res, next) {
 		fs.remove(path);
 		fs.remove(path + '_unzip');
 	}
-	if (req.file.mimetype == 'application/x-zip-compressed') {
+	if (req.file.mimetype == 'application/x-zip-compressed' || req.file.mimetype == 'application/zip') {
 		unzipUpload(req.file.path)
 			.then(loadGeoJson)
 			.then(makeConfig)
