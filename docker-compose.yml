@@ -1,0 +1,16 @@
+version: '2'
+services:
+    mvt-server:
+        image: bertt/mvt-server
+        ports:
+            - "3001:3001"
+        depends_on:
+            - postgis
+    postgis:
+            image: openmaptiles/postgis
+            ports:
+                - "5432:5432"
+            volumes:
+                - postgis:/var/lib/postgresql/data
+volumes:
+    postgis: {}

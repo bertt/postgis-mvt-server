@@ -1,0 +1,19 @@
+{
+	"port": 3001,
+	"databases": {
+		"postgres": {
+			"host": "postgis",
+			"port": 5432,
+			"user": "postgres",
+			"password": "",
+			"database": "postgres"
+		}
+	},
+	"uploads": {
+		"database": "postgres",
+		"schema": "public",
+		"directory": "uploads"
+	},
+	"sourcedir": "sources",
+	"server_url": "http://localhost:3001"
+}
