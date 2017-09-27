@@ -6,6 +6,7 @@ Serve Mapbox vector tiles directly from a PostGIS database
 ### Run with docker-compose
 
 ```
+$ https://raw.githubusercontent.com/bertt/postgis-mvt-server/lets-dockerize-all-the-things/docker-compose.yml
 $ docker-compose up
 ```
 
