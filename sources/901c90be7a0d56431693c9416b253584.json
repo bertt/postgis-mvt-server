@@ -1,0 +1,11 @@
+{
+	"name": "gemeenten2016",
+	"database": "postgres",
+	"table": "public.\"901c90be7a0d56431693c9416b253584\"",
+	"geometry": "wkb_geometry",
+	"type": "MULTIPOLYGON",
+	"srid": 28992,
+	"minzoom": 0,
+	"maxzoom": 22,
+	"attributes": "ogc_fid, gid, gm_code, gm_naam, water, oad, sted, aant_inw, aant_man, aant_vrouw, p_00_14_jr, p_15_24_jr, p_25_44_jr, p_45_64_jr, p_65_eo_jr, p_ongehuwd, p_gehuwd, p_gescheid, p_verweduw, bev_dichth, aantal_hh, p_eenp_hh, p_hh_z_k, p_hh_m_k, gem_hh_gr, p_west_al, p_n_w_al, p_marokko, p_ant_aru, p_surinam, p_turkije, p_over_nw, opp_tot, opp_land, opp_water"
+}
